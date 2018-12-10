@@ -20,6 +20,7 @@ def loadCsv(filename):
   return dataset
 '''
 preprocess
+ten features(ten key words) for each class
 '''
 filename = 'pima-indians-diabetes.data.csv'
 dataset = loadCsv(filename)
